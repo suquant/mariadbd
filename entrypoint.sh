@@ -51,4 +51,4 @@ EOF
 	rm -f $tfile
 fi
 
-exec /usr/bin/mysqld @!
+exec /usr/bin/mysqld $@
